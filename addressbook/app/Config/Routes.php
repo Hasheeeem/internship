@@ -26,3 +26,6 @@ $routes->get('contacts/delete/(:num)', 'ContactController::delete/$1');
 
 // ✅ Export contact list to CSV (Bonus)
 $routes->get('contacts/export', 'ContactController::exportCSV');
+
+// ✅ Export contact list to PDF (Bonus)
+$routes->get('contacts/export-pdf', 'ContactController::exportPDF');
